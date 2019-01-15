@@ -5,7 +5,7 @@ class ShippingController {
 
   constructor() {
     this.REGULAR_PRICE = 0.1
-    this.OVERNIGHT_PRICE = 1
+    this.OVERNIGHT_PRICE = 2
   }
 
   // part of src/shipping-controller.js
