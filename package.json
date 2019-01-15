@@ -1,14 +1,15 @@
 {
-  "name": "Lab1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+    "name": "shipping-service-22",
+    "version": "0.0.1",
+    "main": "app.js",
+    "scripts": {
+        "test": "jest tests",
+        "start": "node src/app.js"
+    },
+    "engines": {
+        "node": "8.11.3",
+        "npm": "5.6.x"
+    },
   "devDependencies": {
     "chai": "^4.2.0",
     "jest": "^23.6.0",
